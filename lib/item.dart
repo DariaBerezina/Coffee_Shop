@@ -14,7 +14,11 @@ class MyItem extends StatelessWidget {
       child: Column(
         children: [
           Center(
-            child: SizedBox(child: Icon(Icons.coffee_rounded)),
+            // child: SizedBox(child: Icon(Icons.coffee_rounded)),
+            child: Image(
+              image: NetworkImage(
+                  'https://tb-static.uber.com/prod/image-proc/processed_images/9ef626cdbc3862ccaf39a4e12ad06e37/5954bcb006b10dbfd0bc160f6370faf3.jpeg'),
+            ),
           ),
           Center(
             child: Text(

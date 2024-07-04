@@ -84,7 +84,7 @@ class HomePage extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     Container(
-                                      height: 200,
+                                      height: 280,
                                       alignment: Alignment.center,
                                       // color: Colors.orange[100 * (index % 9 + 1)],
                                       decoration: BoxDecoration(
@@ -129,7 +129,7 @@ class HomePage extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     Container(
-                                      height: 200,
+                                      height: 280,
                                       alignment: Alignment.center,
                                       // color: Colors.orange[100 * (index % 9 + 1)],
                                       decoration: BoxDecoration(
@@ -176,7 +176,7 @@ class HomePage extends StatelessWidget {
                                 child: Column(
                                   children: [
                                     Container(
-                                      height: 200,
+                                      height: 280,
                                       alignment: Alignment.center,
                                       // color: Colors.orange[100 * (index % 9 + 1)],
                                       decoration: BoxDecoration(
