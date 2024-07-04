@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/categories.dart';
+import 'package:flutter_app/tab_bar.dart';
 
 void main() {
   runApp(MyApp());
@@ -30,25 +30,28 @@ class HomePage extends StatelessWidget {
     'Авторский кофе',
   ];
 
+  final List _coffee = [
+    'Олеато',
+    'Олеато',
+    'Олеато',
+    'Олеато',
+  ];
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        backgroundColor: Color.fromARGB(255, 247, 247, 230),
-        body: Column(
-          children: [
-            //using categories
-            Expanded(
-              child: ListView.builder(
-                itemCount: _categories.length,
-                scrollDirection: Axis.horizontal,
-                itemBuilder: (context, index) {
-                  return MyCategory(
-                    child: _categories[index],
-                  );
-                },
+      backgroundColor: Color.fromARGB(255, 240, 252, 252),
+      body: Padding(
+        padding: const EdgeInsets.only(left: 32, top: 64, right: 32, bottom: 8),
+        child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              MyTabBar(),
+              SizedBox(
+                height: 8,
               ),
-            ),
-          ],
-        ));
+            ]),
+      ),
+    );
   }
 }
