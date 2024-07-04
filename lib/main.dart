@@ -134,7 +134,9 @@ class HomePage extends StatelessWidget {
                                       color: Colors.blue[200],
                                     ),
                                     // child: Text('item ${index + 1}'),
-                                    child: MyItem(name: _coffee[index]),
+                                    child: MyItem(
+                                      name: _coffee[index],
+                                    ),
                                   ),
                                 ],
                               ),
@@ -178,7 +180,9 @@ class HomePage extends StatelessWidget {
                                       color: Colors.blue[200],
                                     ),
                                     // child: Text('item ${index + 1}'),
-                                    child: MyItem(name: _coffee[index]),
+                                    child: MyItem(
+                                      name: _coffee[index],
+                                    ),
                                   ),
                                 ],
                               ),

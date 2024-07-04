@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app/price_button.dart';
 
 class MyItem extends StatelessWidget {
   // const MyCategory({super.key});
@@ -20,6 +21,10 @@ class MyItem extends StatelessWidget {
               name,
               style: Theme.of(context).textTheme.titleSmall,
             ),
+          ),
+          Center(
+            // child: MyPriceButton(),
+            child: MyPricedButton(),
           ),
         ],
       ),
